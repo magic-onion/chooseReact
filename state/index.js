@@ -1,6 +1,7 @@
 import { routerMiddleware, push } from 'react-router-redux'
 
 module.exports = {
+  name: null,
   situation: null,
   end: null,
   score: 0,
