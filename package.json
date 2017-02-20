@@ -1,28 +1,27 @@
 {
-  "name": "Drink-Splitter",
+  "name": "chooseReact",
   "version": "1.0.0",
-  "description": "Drink Splitter",
+  "description": "Choose your own adventure in React",
   "main": "index.js",
   "scripts": {
     "test": "tape test/**/*.tape.js | tap-diff --harmony",
     "test-ava": "ava test/**/*.ava.js --serial --verbose",
     "knex": "knex",
     "postinstall": "webpack --config webpack.production.config.js --progress -p",
-    "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "lint": "eslint . || true"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TexMix-Drink-Splitter/Drink-Splitter.git"
+    "url": "git+https://github.com/mathieu-anderson/chooseReact"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TexMix-Drink-Splitter/Drink-Splitter/issues"
+    "url": "https://github.com/mathieu-anderson/chooseReact/issues"
   },
-  "homepage": "https://github.com/TexMix-Drink-Splitter/Drink-Splitter#readme",
+  "homepage": "https://github.com/mathieu-anderson/chooseReact#readme",
   "dependencies": {
     "ava": "^0.17.0",
     "babel-core": "^6.21.0",

@@ -6,6 +6,7 @@ class CreateAdventurer extends React.Component {
 
   handleClick () {
     this.props.dispatch({type: 'SET_NAME', name: this.refs.name.value})
+    this.props.dispatch({type: 'UPDATE_SITUATION', situation: 11})
   }
 
   render () {
