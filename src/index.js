@@ -13,6 +13,7 @@ const App = require('./containers/app')
 const Home = require('./containers/home')
 const Adventure = require('./containers/adventure')
 const End = require('./containers/end')
+const CreateAdventurer = require('./containers/createAdventurer')
 
 const middleware = routerMiddleware(hashHistory)
 
@@ -28,6 +29,7 @@ const Root = ({store}) => {
 			<Router history = {hashHistory}>
 				<Route path = '/' component={App}>
 					<IndexRoute component={Home} />
+						<Route path = '/create' component={CreateAdventurer} />
 						<Route path = '/adventure' component={Adventure} />
 						<Route path = '/end' component={End} />
 				</Route>

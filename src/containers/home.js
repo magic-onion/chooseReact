@@ -7,7 +7,7 @@ function Home(props) {
     <div>
       <h1>Choose React</h1>
       <p>Choose your own adventure! In React!</p>
-      <Link to="adventure"><button onClick={() => props.dispatch({type: 'UPDATE_SITUATION', situation: 11})}>Start!</button></Link>
+      <Link to="create"><button>Start your adventure!</button></Link>
     </div>
   )
 }

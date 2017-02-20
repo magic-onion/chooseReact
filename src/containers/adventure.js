@@ -27,6 +27,10 @@ function Adventure(props) {
         <br />
         <br />
         <div>
+          Name :
+          {props.name }
+          <br />
+          <br />
           Inventory :
           {inventoryBox}
         </div>
@@ -42,6 +46,10 @@ function Adventure(props) {
         <br />
         <br />
         <div>
+          Name :
+          {props.name }
+          <br />
+          <br />
           Inventory :
           {inventoryBox}
         </div>
@@ -51,13 +59,3 @@ function Adventure(props) {
 }
 
 module.exports = connect((state) => state)(Adventure)
-
-// WHY DOES THIS NOT WORK
-// {_.forEach(inventory, (value, key) => {
-//   if (typeof(value) === 'number'){
-//     return key + ': ' + value
-//   } else {
-//     return key
-//   }
-// })
-// }
